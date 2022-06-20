@@ -8,7 +8,7 @@ miroボードの付箋内容をAsanaタスクに同期作成するGoogle Apps Sc
 3. Asana側にmiroの"付箋内容"と"URL"を記録したタスクを作成。
 4. miroの付箋に作成したAsanaタスクのURLを追記。
 
-![demo](img/syncdemo.gif)
+![demo](img/sync_demo.gif)
 
 ## 事前準備
 
