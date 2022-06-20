@@ -8,7 +8,7 @@ miroボードの付箋内容をAsanaタスクに同期作成するGoogle Apps Sc
 3. Asana側にmiroの"付箋内容"と"URL"を記録したタスクを作成。
 4. miroの付箋に作成したAsanaタスクのURLを追記。
 
-![demo]("https://github.com/momumomu/sync_miro-stickynote_to_asana-tasks/blob/master/img/sync-demo.gif")
+![demo](img/sync-demo.gif)
 
 ## 事前準備
 
@@ -29,7 +29,7 @@ miroのAPIとAsanaのAPIが必要になります。
    - コピペ対象は複数ファイルあるので後述するClaspによるデプロイのほうがラクです。
 3. GASを開く。
 4. スクリプトプロパティに下記のように保管する。
-   - ![img]("https://github.com/momumomu/sync_miro-stickynote_to_asana-tasks/blob/master/img/script_property_img.png")
+   - ![img](img/script_property_img.png)
    - ※GASの共有者は必要最小限にしてください。
      - 下記で設定するTokenが参照可能になってしまうためです。
    - asana_api_token
@@ -51,7 +51,7 @@ miroのAPIとAsanaのAPIが必要になります。
    - `Manifest file has been updated. Do you want to push and overwrite?` と聞かれた場合は`y`を選択。
 5. `clasp open` でデプロイしたGASを開く。
 6. スクリプトプロパティに下記のように保管する。
-   - ![img]("https://github.com/momumomu/sync_miro-stickynote_to_asana-tasks/blob/master/img/script_property_img.png")
+   - ![img](img/script_property_img.png)
    - ※GASの共有者は必要最小限にしてください。
      - 下記で設定するTokenが参照可能になってしまうためです。
    - asana_api_token
