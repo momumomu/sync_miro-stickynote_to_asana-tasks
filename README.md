@@ -4,7 +4,7 @@ miroボードの付箋内容をAsanaタスクに同期作成するGoogle Apps Sc
 ## 動作イメージ
 
 1. miroに付箋を作成。
-2. GASを実行。
+2. GAS(手動orトリガー)を実行。
 3. Asana側にmiroの"付箋内容"と"URL"を記録したタスクを作成。
 4. miroの付箋に作成したAsanaタスクのURLを追記。
 
