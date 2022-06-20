@@ -64,3 +64,13 @@ miroのAPIとAsanaのAPIが必要になります。
 
 - トリガーで任意の時間で定期実行してください。
 - 設定方法は["GAS トリガー"](https://www.google.com/search?q=GAS+%E3%83%88%E3%83%AA%E3%82%AC%E3%83%BC&oq=GAS+%E3%83%88%E3%83%AA%E3%82%AC%E3%83%BC&aqs=chrome..69i57j69i59j0i512l3j69i60l3.3238j0j4&sourceid=chrome&ie=UTF-8) といった形でググればわかりやすい手順は多数あるので割愛します。
+
+## その他
+
+このGASはmiroからAsanaへの単方向同期(かつ初回分)のみです。
+下記パターンでは同期されません。
+
+- できません
+  - Asanaタスクをmiroに同期。
+  - 同期されたAsanaタスクを編集し、それをmiroに同期。
+  - 同期済miroの付箋を編集し、Asanaタスクに上書き更新。
